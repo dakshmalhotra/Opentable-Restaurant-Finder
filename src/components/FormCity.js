@@ -16,7 +16,7 @@ class FormCity extends React.Component {
 
     fetchCity(getcity) {
         // The API where we're fetching data from
-        let url = "http://opentable.herokuapp.com/api/restaurants?city=" + getcity;
+        let url = "https://opentable.herokuapp.com/api/restaurants?city=" + getcity;
         //alert(url);
         fetch(url)
         // We get a response and receive the data in JSON format...

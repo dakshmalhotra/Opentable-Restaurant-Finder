@@ -16,7 +16,7 @@ class FormName extends React.Component {
 
     fetchName(getname) {
         // The API where we're fetching data from
-        let url = "http://opentable.herokuapp.com/api/restaurants?name=" + getname;
+        let url = "https://opentable.herokuapp.com/api/restaurants?name=" + getname;
         //alert(url);
         fetch(url)
         // We get a response and receive the data in JSON format...
